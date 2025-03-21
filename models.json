@@ -1,1 +1,250 @@
+{
+  "porsche_911": {
+    "name": "porsche_911",
+    "model_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/models/2018_porsche_911_carrera_gts.glb",
+    "audio_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/audio/porsh911%20voice.mp3",
+    "pdf_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/pdfs/2018%20Porsche%20911%20Carrera%20GTS.pdf",
+    "marker_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/markers/pattern-porsheimg.patt"
+  },
+
+  "G-wagon": {
+    "name": "G-wagon",
+    "model_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/models/G-Wagon.glb",
+    "audio_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/audio/G-Wagon_voice.mp3",
+    "pdf_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/pdfs/G-Wagon.pdf",
+    "marker_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/markers/pattern-G-Wagon_image.patt"
+  },
+
+  "Heart": {
+    "name": "Heart",
+    "model_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/models/Heart.glb",
+    "audio_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/audio/Heart_voice.mp3",
+    "pdf_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/pdfs/Heart.pdf",
+    "marker_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/markers/pattern-Heart_image.patt"
+  },
+
+  "Rpg7": {
+    "name": "Rpg7",
+    "model_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/models/Rpg7.glb",
+    "audio_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/audio/Rpg7_voice.mp3",
+    "pdf_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/pdfs/Rpg7_pdf.pdf",
+    "marker_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/markers/pattern-Rpg7_image.patt"
+  },
+
+  "Anatomy_of_airways": {
+    "name": "Anatomy of airways",
+    "model_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/models/anatomy_of_the_airways.glb",
+    "audio_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/audio/anatomy_airways.mp3",
+    "pdf_url": "https://YOUR_GITHUB_USERNAME.github.io/arena-ar-assets/pdfs/banana.pdf",
+    "marker_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/markers/pattern-anatomy%20of%20airways.patt"
+  },
+
+  "Animal cell": {
+    "name": "Animal cell",
+    "model_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/models/animal_cell.glb",
+    "audio_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/audio/animal_cell_voice.mp3",
+    "pdf_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/pdfs/Anatomy%20of%20the%20Airways.pdf",
+    "marker_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/markers/pattern-animal_cell_img.patt"
+  },
+
+ "Archaea": {
+    "name": "Archaea",
+    "model_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/models/archaea.glb",
+    "audio_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/audio/archaeavoice.mp3",
+    "pdf_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/pdfs/Archaeanotes.pdf",
+    "marker_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/markers/pattern-archaea-archaebacteria-inner-structure-outline-600nw-2128573217.patt"
+  },
+
+  "Glass model of sand worm": {
+    "name": "Glass model of sand worm",
+    "model_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/models/blaschka_glass_model_of_a_sand_mason_worm.glb",
+    "audio_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/audio/blaschka_glass_model_of_a_sand_mason_worm_voice.mp3",
+    "pdf_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/pdfs/Blaschka%20Glass%20Model%20of%20a%20Sand%20Mason%20Worm.pdf",
+    "marker_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/markers/pattern-blaschka_glass_model_of_a_sand_mason_worm_image.patt"
+  },
+
+   "Calipers": {
+    "name": "Calipers",
+    "model_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/models/calipers.glb",
+    "audio_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/audio/calipers_voice.mp3",
+    "pdf_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/pdfs/Calipersnotes.pdf",
+    "marker_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/markers/pattern-calipers_image.patt"
+  },
+
+   "Clutch plates": {
+    "name": "Clutch plates",
+    "model_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/models/clutch_plate.glb",
+    "audio_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/audio/clutch_plate_voice.mp3",
+    "pdf_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/pdfs/Clutch%20Plate.pdf",
+    "marker_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/markers/pattern-clutch_plate_imgae.patt"
+  },
+
+  "Atomic structure of diamond": {
+    "name": "Atomic structure of diamond",
+    "model_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/models/diamond_atomic_structure_3_plastic_model.glb",
+    "audio_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/audio/diamond_atomic_structure_3_plastic_model_voice.mp3",
+    "pdf_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/pdfs/Diamond%20Atomic%20Structure.pdf",
+    "marker_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/markers/pattern-diamond_atomic_structure_3_plastic_model_image.patt"
+  },
+
+  "DNA methylation": {
+    "name": "DNA methylation",
+    "model_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/models/dna_methylation_live.glb",
+    "audio_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/audio/DNA%20Methylation_voice.mp3",
+    "pdf_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/pdfs/DNA%20Methylation.pdf",
+    "marker_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/markers/pattern-DNA%20Methylation_image.patt"
+  },
+
+  "Earth core": {
+    "name": "Earth core",
+    "model_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/models/earth_core_v.1.glb",
+    "audio_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/audio/Earth%E2%80%99s%20Core_voice.mp3",
+    "pdf_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/pdfs/Earth%E2%80%99s%20Core.pdf",
+    "marker_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/markers/pattern-Earth%E2%80%99s%20Core_image.patt"
+  },
+
+ "Electric circuit": {
+    "name": "Electric circuit",
+    "model_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/models/electric_circuit.glb",
+    "audio_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/audio/electric_circuit_voice.mp3",
+    "pdf_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/pdfs/Electric%20Circuit.pdf",
+    "marker_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/markers/pattern-electric_circuit_image.patt"
+  },
+
+ "Flying machine structure": {
+    "name": "Flying machine structure",
+    "model_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/models/flying_machine.glb",
+    "audio_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/audio/flying_machine_voice.mp3",
+    "pdf_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/pdfs/Flying%20Machine.pdf",
+    "marker_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/markers/pattern-flying_machine_image.patt"
+  },
+
+ "Generator Diagram": {
+    "name": "Generator Diagram",
+    "model_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/models/generaator.glb",
+    "audio_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/audio/generaator_voice.mp3",
+    "pdf_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/pdfs/Generator.pdf",
+    "marker_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/markers/pattern-generaator_image.patt"
+  },
+
+  "Illustration of viscocity": {
+    "name": "Illustration of viscocity",
+    "model_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/models/illustration_of_viscosity.glb",
+    "audio_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/audio/illustration_of_viscosity_voice.mp3",
+    "pdf_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/pdfs/illustration_of_viscosity.pdf",
+    "marker_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/markers/pattern-illustration_of_viscosity_image.patt"
+  },
+
+ "Jet Engine": {
+    "name": "Jet Engine",
+    "model_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/models/jet_engine.glb",
+    "audio_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/audio/jet_engine_voice.mp3",
+    "pdf_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/pdfs/jet_engine_pdf.pdf",
+    "marker_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/markers/pattern-jet_engine_img.patt"
+  },
+
+ "Magnetic field of soleniod": {
+    "name": "Magnetic field of soleniod",
+    "model_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/models/magnetic_field_of_solenoid.glb",
+    "audio_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/audio/magnetic_field_of_solenoid_voice.mp3",
+    "pdf_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/pdfs/magnetic_field_of_solenoid_pdf.pdf",
+    "marker_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/markers/pattern-magnetic_field_of_solenoid_img.patt"
+  },
+
+ "Manual transmission": {
+    "name": "Manual transmission",
+    "model_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/models/manual_transmission_gear_box.glb",
+    "audio_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/audio/manual_transmission_gear_box_voice.mp3",
+    "pdf_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/pdfs/manual_transmission_gear_box_pdf.pdf",
+    "marker_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/markers/pattern-manual_transmission_gear_box_img.patt"
+  },
+
+ "Mclaren f1 1993": {
+    "name": "Mclaren f1 1993",
+    "model_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/models/mclaren_f1_1993.glb",
+    "audio_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/audio/mclaren_f1_1993_voice.mp3",
+    "pdf_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/pdfs/mclaren_f1_1993_pdf.pdf",
+    "marker_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/markers/pattern-mclaren_f1_1993_img.patt"
+  },
+
+ "Micrometer": {
+    "name": "Micrometer",
+    "model_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/models/micrometer.glb",
+    "audio_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/audio/micrometer_voice.mp3",
+    "pdf_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/pdfs/micrometer_pdf.pdf",
+    "marker_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/markers/pattern-micrometer_img.patt"
+  },
+
+"Methane molecule": {
+    "name": "Methane molecule",
+    "model_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/models/methane_molecule.glb",
+    "audio_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/audio/methane_molecule_voice.mp3",
+    "pdf_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/pdfs/methane_molecule_pdf.pdf",
+    "marker_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/markers/pattern-methane_molecule_img.patt"
+  },
+
+"Mitochondria": {
+    "name": "Mitochondria",
+    "model_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/models/mitochondria.glb",
+    "audio_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/audio/mitochondria_voice.mp3",
+    "pdf_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/pdfs/mitochondria_pdf.pdf",
+    "marker_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/markers/pattern-mitochondria_img.patt"
+  },
+
+"Motorcycle 4 stroke engine": {
+    "name": "Motorcycle 4 stroke engine",
+    "model_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/models/motorcycle_4_stroke_engine.glb",
+    "audio_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/audio/motorcycle_4_stroke_engine_voice.mp3",
+    "pdf_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/pdfs/motorcycle_4_stroke_engine_pdf.pdf",
+    "marker_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/markers/pattern-motorcycle_4_stroke_engine_img.patt"
+  },
+
+"Quantum register": {
+    "name": "Quantum register",
+    "model_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/models/quantum_register.glb",
+    "audio_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/audio/quantum_register_voice.mp3",
+    "pdf_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/pdfs/quantum_register_pdf.pdf",
+    "marker_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/markers/pattern-quantum_register_img.patt"
+  },
+
+"Refraction of light": {
+    "name": "Refraction of light",
+    "model_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/models/reflectionrefraction_prism.glb",
+    "audio_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/audio/reflectionrefraction_prism_voice.mp3",
+    "pdf_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/pdfs/reflectionrefraction_prism_pdf.pdf",
+    "marker_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/markers/pattern-reflectionrefraction_prism_img.patt"
+  },
+
+"Skelton": {
+    "name": "Skelton",
+    "model_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/models/skeleton.glb",
+    "audio_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/audio/skeleton_voice.mp3",
+    "pdf_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/pdfs/skeleton_pdf.pdf",
+    "marker_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/markers/pattern-skeleton_img.patt"
+  },
+
+"Space shuttle": {
+    "name": "Space shuttle",
+    "model_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/models/space_shuttle.glb",
+    "audio_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/audio/space_shuttle_voice.mp3",
+    "pdf_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/pdfs/space_shuttle_pdf.pdf",
+    "marker_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/markers/pattern-space_shuttle_img.patt"
+  },
+
+"Starfish": {
+    "name": "Starfish",
+    "model_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/models/starfish.glb",
+    "audio_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/audio/starfish_voice.mp3",
+    "pdf_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/pdfs/starfish_pdf.pdf",
+    "marker_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/markers/pattern-starfish_img.patt"
+  },
+
+"Thoracic & abdominal skeleton": {
+    "name": "Thoracic & abdominal skeleton",
+    "model_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/models/thoracic__abdominal_skeleton.glb",
+    "audio_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/audio/thoracic__abdominal_skeleton_voice.mp3",
+    "pdf_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/pdfs/thoracic__abdominal_skeleton_pdf.pdf",
+    "marker_url": "https://github.com/Akshaylinson/arena-ar-assets/blob/main/markers/pattern-thoracic__abdominal_skeleton_img.patt"
+  },
+}
 
