@@ -4,28 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arenafp - AR Web App</title>
+
+    <!-- A-Frame & AR.js -->
     <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/ar.js@latest/aframe/build/aframe-ar.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@tweenjs/tween.js@18.6.4"></script>
-    <style>
-        body { margin: 0; overflow: hidden; }
-        .ui-buttons {
-            position: absolute;
-            bottom: 20px;
-            left: 50%;
-            transform: translateX(-50%);
-            display: flex;
-            gap: 10px;
-        }
-        .ui-buttons button {
-            padding: 10px 15px;
-            font-size: 16px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-    </style>
+
+    <!-- Link External CSS -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <a-scene embedded arjs>
@@ -34,6 +21,7 @@
         <a-entity camera></a-entity>
     </a-scene>
 
+    <!-- UI Buttons -->
     <div class="ui-buttons">
         <button id="rotateBtn">Rotate</button>
         <button id="voiceBtn">Voice</button>
@@ -42,6 +30,7 @@
         <button id="unpinBtn">Unpin</button>
     </div>
 
+    <!-- JavaScript -->
     <script src="script.js"></script>
 </body>
 </html>
