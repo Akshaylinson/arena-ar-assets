@@ -1,58 +1,77 @@
-/* Global Reset */
+/* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Hide scrollbars and remove default margin */
-body {
+/* Fullscreen without scroll */
+body, html {
+    width: 100%;
+    height: 100%;
     overflow: hidden;
-    font-family: Arial, sans-serif; /* Ensures consistency */
+    font-family: Arial, sans-serif;
 }
 
-/* Fixed UI Buttons at the bottom */
+/* Fixed Buttons at the bottom */
 .ui-buttons {
     position: fixed; /* Keeps buttons fixed even when zooming */
-    bottom: 20px;
+    bottom: 4vh; /* Positions relative to the viewport */
     left: 50%;
     transform: translateX(-50%);
     display: flex;
-    flex-wrap: wrap; /* Prevents overflow on smaller screens */
-    gap: 10px;
-    z-index: 100; /* Ensures buttons stay above AR elements */
-    width: 100%;
-    justify-content: center; /* Keep buttons centered */
+    gap: 2vw; /* Ensures spacing scales with zoom */
+    z-index: 100;
+    width: auto; /* Prevents full width stretching */
+    justify-content: center;
+    flex-wrap: wrap; /* Allows buttons to wrap if needed on smaller screens */
 }
 
-/* Styled buttons for better UI */
+/* Button Styling */
 .ui-buttons button {
-    padding: 12px 18px;
-    font-size: 16px;
+    padding: 1.5vh 4vw; /* Scales with viewport */
+    font-size: 1.6vh; /* Adjusts text size dynamically */
     border: none;
-    border-radius: 8px;
+    border-radius: 1vh;
     cursor: pointer;
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
     transition: background 0.3s ease, color 0.3s ease;
-    outline: none; /* Removes default focus outline */
+    white-space: nowrap; /* Prevents text from breaking */
 }
 
-/* Hover effect */
+/* Button Hover Effect */
 .ui-buttons button:hover {
     background-color: rgba(255, 255, 255, 0.9);
     color: black;
 }
 
-/* Responsive UI for smaller screens */
-@media (max-width: 480px) {
+/* 📱 Mobile Optimization */
+@media (max-width: 768px) {
     .ui-buttons {
-        bottom: 10px;
-        gap: 5px;
+        bottom: 2vh;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1.5vw;
     }
     
     .ui-buttons button {
-        padding: 10px 14px;
-        font-size: 14px;
+        padding: 1.2vh 3.5vw;
+        font-size: 1.4vh;
+    }
+}
+
+/* 📱 Extra Small Screens (Phones) */
+@media (max-width: 480px) {
+    .ui-buttons {
+        bottom: 1.5vh;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1vw;
+    }
+    
+    .ui-buttons button {
+        padding: 1vh 3vw;
+        font-size: 1.2vh;
     }
 }
