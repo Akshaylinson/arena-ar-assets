@@ -13,7 +13,7 @@ body {
 
 /* Fixed UI Buttons at the bottom */
 .ui-buttons {
-    position: fixed;
+    position: fixed; /* Keeps buttons fixed even when zooming */
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
@@ -21,6 +21,8 @@ body {
     flex-wrap: wrap; /* Prevents overflow on smaller screens */
     gap: 10px;
     z-index: 100; /* Ensures buttons stay above AR elements */
+    width: 100%;
+    justify-content: center; /* Keep buttons centered */
 }
 
 /* Styled buttons for better UI */
