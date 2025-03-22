@@ -1,1 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arenafp - AR Web App</title>
+    <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/ar.js@latest/aframe/build/aframe-ar.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tweenjs/tween.js@18.6.4"></script>
+    <style>
+        body { margin: 0; overflow: hidden; }
+        .ui-buttons {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 10px;
+        }
+        .ui-buttons button {
+            padding: 10px 15px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <a-scene embedded arjs>
+        <a-assets id="assets"></a-assets>
+        <a-entity id="ar-markers"></a-entity>
+        <a-entity camera></a-entity>
+    </a-scene>
+
+    <div class="ui-buttons">
+        <button id="rotateBtn">Rotate</button>
+        <button id="voiceBtn">Voice</button>
+        <button id="pdfBtn">PDF</button>
+        <button id="pinBtn">Pin</button>
+        <button id="unpinBtn">Unpin</button>
+    </div>
+
+    <script>
+        let activeModel = null, currentAudio = null, pinned = false, modelRotation = 0;
+        const apiUrl = "models.json"; 
+
+        async function loadModels() {
+            try {
+                const response = await fetch(apiUrl);
+                const data = await response.json();
+                const markerContainer = document.getElementById("ar-markers");
+                
+                data.models.forEach(model => {
+                    const marker = createMarker(model);
+                    markerContainer.appendChild(marker);
+                });
+            } catch (error) {
+                console.error("Error loading models:", error);
+            }
+        }
+
+        function createMarker(model) {
+            const marker = document.createElement("a-marker");
+            marker.setAttribute("type", "pattern");
+            marker.setAttribute("url", model.marker_url);
+            marker.setAttribute("id", model.name.replace(/\s+/g, "-"));
+            marker.setAttribute("marker-handler", "");
+
+            const entity = document.createElement("a-entity");
+            entity.setAttribute("gltf-model", model.model_url);
+            entity.setAttribute("scale", "1 1 1");
+            entity.setAttribute("position", "0 0 0");
+            entity.setAttribute("rotation", "0 0 0");
+            entity.setAttribute("visible", "false");
+            entity.dataset.voice = model.voice_url;
+            entity.dataset.pdf = model.pdf_url;
+            
+            marker.appendChild(entity);
+            return marker;
+        }
+
+        AFRAME.registerComponent("marker-handler", {
+            init: function() {
+                this.el.addEventListener("markerFound", () => handleMarkerFound(this.el));
+                this.el.addEventListener("markerLost", () => handleMarkerLost());
+            }
+        });
+
+        function handleMarkerFound(marker) {
+            activeModel = marker.children[0];
+            activeModel.setAttribute("visible", "true");
+        }
+
+        function handleMarkerLost() {
+            if (!pinned && activeModel) {
+                activeModel.setAttribute("visible", "false");
+            }
+        }
+
+        document.getElementById("rotateBtn").addEventListener("click", () => {
+            if (activeModel) {
+                modelRotation += 30;
+                activeModel.setAttribute("rotation", `0 ${modelRotation} 0`);
+            }
+        });
+
+        document.getElementById("voiceBtn").addEventListener("click", () => {
+            if (activeModel && activeModel.dataset.voice) {
+                if (currentAudio) currentAudio.pause();
+                currentAudio = new Audio(activeModel.dataset.voice);
+                currentAudio.play();
+            }
+        });
+
+        document.getElementById("pdfBtn").addEventListener("click", () => {
+            if (activeModel && activeModel.dataset.pdf) {
+                window.open(activeModel.dataset.pdf, "_blank");
+            }
+        });
+
+        document.getElementById("pinBtn").addEventListener("click", () => {
+            if (activeModel) {
+                pinned = true;
+                localStorage.setItem("pinnedModel", activeModel.getAttribute("gltf-model"));
+            }
+        });
+
+        document.getElementById("unpinBtn").addEventListener("click", () => {
+            pinned = false;
+            localStorage.removeItem("pinnedModel");
+        });
+
+        loadModels();
+    </script>
+</body>
+</html>
 
